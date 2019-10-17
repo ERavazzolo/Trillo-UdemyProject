@@ -1,0 +1,93 @@
+.container {
+    height: 100%;
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-1);
+    box-shadow: var(--shadow-dark);
+
+    @include respond(largest) {
+        margin: 0;
+        max-width: 100%;
+        width: 100%
+    }
+}
+
+.header {
+    height: 7rem;
+    background-color: #fff;
+    font-size: 1.4rem;
+    border-bottom: var(--line);
+
+    display: flex;      //to align header items
+    justify-content: space-between;
+    align-items: center;
+
+    @include respond(small) {
+        flex-wrap: wrap;
+        height: 11rem;
+    }    
+}
+
+.content {
+    display: flex;  //FLEX CONTAINER
+
+    @include respond(big) {
+        flex-direction: column;     //to put the sidebar on top
+    }
+}
+
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+
+    flex: 0 0 18%;
+}
+
+.hotel-view {
+    background-color: var(--color-grey-light-2);
+
+    flex: 1;    //with short-hand flex property, no need to define stretch and basis if we don't need them
+}
+
+.detail {
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+    font-size: 1.4rem;
+
+    display: flex;  //to display description and user-reviews side by side
+
+    @include respond(big) {
+        padding: 2rem;
+    }
+
+    @include respond(medium) {
+        flex-direction: column;
+    }
+}
+
+.description {
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+
+    flex: 0 0 60%;      //no grow, no shrink, 60% width
+    margin-right: 4.5rem;
+
+    @include respond(big) {
+        padding: 1.5rem;
+        margin-right: 2rem;
+    }
+
+    @include respond(medium) {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+}
+
+.user-reviews {
+    flex: 1;    //to occupy the rest of the space available
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
