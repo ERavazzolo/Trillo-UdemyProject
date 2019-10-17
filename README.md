@@ -8,7 +8,7 @@ Trillo is a landing page designed by Jonas Schmedtmann for an all-in-one booking
 - Implement browser compatibility using feature queries
 - Use SVG sprites in HTML
 
-## Tech Stack Summary
+## Tech Stack
 - HTML
 - CSS3/SCSS
 
