@@ -1,2 +1,18 @@
-# Trillo-UdemyProject
-This project was part of the Udemy course "Advanced CSS and Sass: Flexbox, Grid, Animations and more!" by Jonas Schmedtmann
+## Description
+Trillo is a landing page designed by Jonas Schmedtmann for an all-in-one booking app through which users can search and book for hotel, flight, car rental and tour on the same platform.
+
+
+## Criteria
+- Build page layout using Flexbox
+- Improve website responsiveness through media queries for screen width, resolutions and touch capabilities
+- Implement browser compatibility using feature queries
+- Use SVG sprites in HTML
+
+## Tech Stack Summary
+- HTML
+- CSS3/SCSS
+
+## Run Locally
+- Run `git clone`
+- Run `npm install`
+- Run `npm start`
