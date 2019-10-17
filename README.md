@@ -13,6 +13,6 @@ Trillo is a landing page designed by Jonas Schmedtmann for an all-in-one booking
 - CSS3/SCSS
 
 ## Run Locally
-- Run `git clone`
+- Run `git clone https://github.com/ERavazzolo/Trillo-UdemyProject.git`
 - Run `npm install`
 - Run `npm start`
