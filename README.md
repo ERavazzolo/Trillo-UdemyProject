@@ -7,7 +7,7 @@ Trillo is a landing page designed by Jonas Schmedtmann for an all-in-one booking
 
 ## Criteria
 - Build page layout using Flexbox
-- Improve website responsiveness through media queries for screen width, resolutions and touch capabilities
+- Improve website responsiveness through media queries for different screen widths, resolutions and touch capabilities
 - Implement browser compatibility using feature queries
 - Use SVG sprites in HTML
 
